@@ -1,4 +1,4 @@
-Data Source in SDW: https://sdw.ecb.europa.eu/quickview.do?org.apache.struts.taglib.html.TOKEN=7109e2a7bc5a992a8d2ad8b02485f996&SERIES_KEY=143.FM.M.U2.EUR.4F.BB.U2_7Y.YLD&start=01-01-1990&end=01-12-2020&submitOptions.x=0&submitOptions.y=0&trans=N
+Data Source in SDW: https://sdw.ecb.europa.eu/quickview.do?org.apache.struts.taglib.html.TOKEN=7109e2a7bc5a992a8d2ad8b02485f996&SERIES_KEY=143.FM.M.U2.EUR.4F.BB.U2_7Y.YLD&start=01-07-1990&end=01-12-2020&submitOptions.x=0&submitOptions.y=0&trans=N
 ,FM.M.U2.EUR.4F.BB.U2_7Y.YLD
 ,"Euro area (changing composition) - Benchmark bond - Euro area 7-year Government Benchmark bond yield - Yield - Euro, provided by ECB"
 Collection:,End of period (E)
@@ -368,9 +368,3 @@ Period\Unit:,[Percent per annum ]
 1990Sep,10.8773
 1990Aug,10.6908
 1990Jul,10.2677
-1990Jun,9.3045
-1990May,9.2355
-1990Apr,9.2545
-1990Mar,9.4492
-1990Feb,9.3483
-1990Jan,8.6819
