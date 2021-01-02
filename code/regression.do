@@ -1,6 +1,11 @@
-/*run regression*/
+use data/derived/data_clean.dta
 
-/*Create a graph (of any type) in State.*/
+*run regression*
 
-/*Save regression tables and graphs as files. Demonstrate both.*/
+
+*Create a graph (of any type) in Stata.*
+
+
+
+*Save regression tables and graphs as files. Demonstrate both.*
 
