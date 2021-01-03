@@ -1,0 +1,18 @@
+	(1)
+VARIABLES	pmsci_price
+	
+market_pr	-0.0838
+	(0.479)
+smb	-0.160
+	(1.259)
+hml	3.557***
+	(1.033)
+slope310	-9.699***
+	(3.033)
+Constant	92.52***
+	(3.806)
+	
+Observations	239
+R-squared	0.082
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	

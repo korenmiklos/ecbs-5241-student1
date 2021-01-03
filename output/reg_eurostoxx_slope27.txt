@@ -1,0 +1,20 @@
+	(1)	(2)
+VARIABLES	peurostoxx	peurostoxx
+		
+market_pr	-0.452	-1.088
+	(1.285)	(1.327)
+smb	0.882	-0.546
+	(3.361)	(3.476)
+hml	12.95***	12.02***
+	(2.766)	(2.867)
+slope37	-62.62***	
+	(13.11)	
+slope27		-13.54**
+		(6.756)
+Constant	241.6***	211.5***
+	(10.78)	(8.687)
+		
+Observations	239	239
+R-squared	0.148	0.080
+Standard errors in parentheses		
+*** p<0.01, ** p<0.05, * p<0.1		
