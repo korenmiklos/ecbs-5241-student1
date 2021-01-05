@@ -9,21 +9,13 @@ drop msci*
 drop eurostoxx
 
 *create slope variables
-gen slope210=gov_bond_yield_10y-gov_bond_yield_2y
-gen dslope210=slope210-slope210[_n-1]
-drop slope210
+gen dslope210=gov_bond_yield_10y-gov_bond_yield_2y-(gov_bond_yield_10y[_n-1]-gov_bond_yield_2y[_n-1])
 
-gen slope27=gov_bond_yield_7y-gov_bond_yield_2y
-gen dslope27=slope27-slope27[_n-1]
-drop slope27
+gen dslope27=gov_bond_yield_7y-gov_bond_yield_2y-(gov_bond_yield_7y[_n-1]-gov_bond_yield_2y[_n-1])
 
-gen slope310=gov_bond_yield_10y-gov_bond_yield_3y
-gen dslope310=slope310-slope310[_n-1]
-drop slope310
+gen dslope310=gov_bond_yield_10y-gov_bond_yield_3y-(gov_bond_yield_10y[_n-1]-gov_bond_yield_3y[_n-1])
 
-gen slope37=gov_bond_yield_7y-gov_bond_yield_3y
-gen dslope37=slope37-slope37[_n-1]
-drop slope37
+gen dslope37=gov_bond_yield_7y-gov_bond_yield_3y-(gov_bond_yield_7y[_n-1]-gov_bond_yield_3y[_n-1])
 
 *save data
 save "data/derived/data_final.dta", replace
